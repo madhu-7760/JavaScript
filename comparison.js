@@ -38,4 +38,7 @@ console.log(gameCount);
 // console.log("2" >1);
 // keep same datatypes while comparison otherwise it will do type coercion and convert one datatype to another and then compare
 
+console.log(null >0);
+console.log(null >=0);
+
 
