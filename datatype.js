@@ -1,0 +1,47 @@
+const acc_id= "12345";
+let name= "Madhu";
+var age = 21;
+
+// dont use var bcoz of block scope issue and redeclaration issue
+console.log(acc_id);
+console.log(name);
+console.log(age);
+console.table([acc_id,name,age]);
+
+//number => 2 to power 53
+//bigint =>
+//string => " " collection of characters
+//boolean => true or false
+//null => empty value
+//undefined => variable declared but not assigned
+//symbol => unique identifier
+
+console.log(typeof acc_id);
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof null);
+
+let score = "33"
+// let score = "33ab"
+console.log(typeof score);
+console.log(typeof(score));
+
+let valueInNumber = Number(score);    //Converted into number
+
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
+ 
+// "33" =>33
+// "33ab" => NaN => Not a Number
+// true =>1 ; false => 0
+// " " => false
+// "Madhu" => true
+
+let isLogged = 1
+let booleanIsLogged = Boolean(isLogged);
+console.log(booleanIsLogged);
+
+let someValue = 33
+let stringValue = String(someValue);
+console.log(stringValue);
+console.log(typeof stringValue);
