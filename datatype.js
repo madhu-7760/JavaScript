@@ -1,12 +1,12 @@
-const acc_id= "12345";
-let name= "Madhu";
-var age = 21;
+// const acc_id= "12345";
+// let name= "Madhu";
+// var age = 21;
 
-// dont use var bcoz of block scope issue and redeclaration issue
-console.log(acc_id);
-console.log(name);
-console.log(age);
-console.table([acc_id,name,age]);
+//  dont use var bcoz of block scope issue and redeclaration issue
+// console.log(acc_id);
+// console.log(name);
+// console.log(age);
+// console.table([acc_id,name,age]);
 
 //number => 2 to power 53
 //bigint =>
@@ -22,7 +22,7 @@ console.table([acc_id,name,age]);
 // console.log(typeof null);
 
 // let score = "33"
-// // let score = "33ab"
+//  let score = "33ab"
 // console.log(typeof score);
 // console.log(typeof(score));
 
@@ -53,14 +53,14 @@ console.table([acc_id,name,age]);
  const outTemp=null
  let userMail;
 
- console.log(typeof outTemp);
- console.log(typeof userMail);
+//  console.log(typeof outTemp);
+//  console.log(typeof userMail);
  
- const id= Symbol('123');
- const id2= Symbol('123');
+//  const id= Symbol('123');
+//  const id2= Symbol('123');
 
-console.log(typeof id);
- console.log(id === id2);  //false bcoz symbol is unique
+// console.log(typeof id);
+//  console.log(id === id2);  //false bcoz symbol is unique
 
  //Return Types
 //  null => object
@@ -71,3 +71,25 @@ console.log(typeof id);
 //  String => string
 //  Symbol => symbol
 //  BigInt => bigint
+
+
+//Stack => Primitive Data Types
+//Heap => Reference Data-(Non Primitive )
+
+let myName = "Madhu";
+let myName2 = myName;
+myName2 = "Sushmitha";
+
+console.log(myName);
+console.log(myName2);
+
+let userOne ={
+    name: "Madhu",
+    age: 21,
+    email: "m@gmail.com"
+
+}
+ let userTwo= userOne;
+ userTwo.email = "Sush@google.com";
+
+ console.log(userOne);
