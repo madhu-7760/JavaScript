@@ -27,3 +27,4 @@ console.log(url.replace("%20", "-"));
 //console.log(url.includes('sush'));
 
 console.log(url.replace(/madhu/, "sush")); //g is for global replacement
+

@@ -5,7 +5,20 @@ GET / users -  List all users
 GET / users/1 - Get the user with ID 1
 GET / users/2 - Get the user with ID 2
 
+Dynamic Path Parameters
+GET /api/users/:id
+:id -> Variable     
+
 POST / users - Create new user
 PATCH /user/1 - Edit the user with  ID 1
 
 DELETE /user/1 - DELETE the user with ID 1
+
+
+//REST API stands for Representational State Transfer Application Programming Interface. It is a set of rules and conventions for building and interacting with web services. REST APIs use HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on resources, which are typically represented in JSON or XML format. REST APIs are stateless, meaning that each request from a client to the server must contain all the information needed to understand and process the request. This makes REST APIs scalable and easy to maintain.
+//GET /api/users - HTML Document Render
+// GET/api/users -List of all users JSON - Done
+// GET/api/users/1 -Details of user with id 1
+// POST/api/users -Create a new user
+// PUT/api/users/1 -Update user with id 1
+// DELETE/api/users/1 -Delete user with id 1
