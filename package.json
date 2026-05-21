@@ -1,5 +1,5 @@
 {
-  "name": "java_script",
+  "name": "js",
   "version": "1.0.0",
   "description": "\"# JavaScript\"",
   "main": "array.js",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/madhu-7760/JavaScript#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.4.0"
   }
 }

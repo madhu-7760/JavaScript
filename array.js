@@ -35,3 +35,6 @@ console.log(newArr)
 console.log("A ", myArr);
 const myn1= myArr.slice(2,4)  //slice(start, end) returns a new array containing the elements from start index to end index (exclusive), it does not modify the original array
 console.log(myn1);
+
+console.log("B ", myArr);
+
